@@ -84,7 +84,7 @@ $ mkdir ~/assistedInstaller
 $ cp pod-persistent-disconnected.yml configmap-disconnected.yml ~/assistedInstaller
 ```
 
-2. Create a registry.conf file and change all "\<container image registry server:port\>" entries to point to your assisted installer host name
+2. Create a registries.conf  file and change all "\<container image registry server:port\>" entries to point to your assisted installer host name
 
 ```conf
 unqualified-search-registries = ["registry.access.redhat.com", "docker.io"]
